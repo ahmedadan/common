@@ -3,9 +3,11 @@ on:
   pull_request:
     branches:
       - main
+      - homebrew-migration
   push:
     branches:
       - main
+      - homebrew-migration
   workflow_dispatch:
 
 env:
